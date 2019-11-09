@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        // write your code here
         Scanner scanner = new Scanner(System.in);
         System.out.println("Vartotojo registracija:");
         System.out.print("Tel. +370 ");
@@ -17,5 +17,6 @@ public class Main {
         User user = new User(phoneNo, email);
 
         System.out.println(user.toString());
+
     }
 }
